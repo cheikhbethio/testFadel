@@ -1,5 +1,5 @@
 .rootHeader{
-  width: auto;
+  width: 100%;
   height: 70px;
   background-color:white ;
   margin: 0;
@@ -9,7 +9,7 @@
 .nameLinkPerso{
   width: 100%;
   background-color: yellow;
-  margin-top: 25px;
+  margin-top: 1.5%;
   position: absolute;
   }
 
@@ -18,7 +18,7 @@
   width: 10%;
   display: inline;
   font-size: 25px;
-}
+  }
 
 .linkPerso{
   width: 50%;
@@ -32,15 +32,15 @@
 
 .linkPerso div{
   display: inline;
-  margin-right: 30px;
+  margin-right: 2%;
 }
 
 /*****************body*********************/
 .principaleBody{
   margin: 0;
-  width: auto;
+  width: 100%;
+  height: 100%;
 }
-
 
 .rootBody{
   background: url("images/root.jpg") no-repeat center fixed;
@@ -48,23 +48,44 @@
   width: 100%;
   height: 500px;
 }
+
 .centralImage{
   position: absolute;
-  margin-top: 125px;
+  margin-top: 90px;
   margin-left: 25%;
-  width: 50%;
+  width: 25%;
   height: 250px;
 }
+
 .centralImage img{
   width: 100%;
   height: inherit;
   border: 2px solid green;
+}
 
+.infoPerso{
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 50%;
+  width: 25%;
+  height: 250px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.socialLink{
+  position: absolute;
+  margin-left: 25%;
+  width: 50%;
+  border: 2px solid blue;
+  background-color: green;
+  height: 5%;
+  margin-top: 340px;
 }
 /*************footer*************/
 .rootFooter{
   margin-bottom: : 0;
-  width: auto;
+  width: 100%;
   height: 50px;
 }
 
