@@ -43,15 +43,16 @@
 .rootBody{
   background: url("images/root.jpg") no-repeat center fixed;
   background-size: cover;
-  width: 100%;
+  width: auto;
   height: 600px;
   padding-top: 100px;
   padding-left: 25%;
+  padding-right: 25%;
 
 }
 
 .divCentrale{
-  width: 50%;
+  width: auto;
   height: 500px;
 }
 
@@ -85,7 +86,6 @@
 }
 
 .panelInfoPerso div:first-child span{
-  border: 2px solid blue;
   font-size: 30px;
   display: block;
 }
@@ -108,33 +108,39 @@
 
 .socialLink{
   width: 100%;
-  background-color: green;
+  background-color: #4343ed;
   height: 10%;
   float: right;
 }
 
 .link{
   width: 50%;
-  margin-left: 30%;
+  margin-left: 25%;
+  height: 70%;
+  margin-top: 10px;
+  margin-top: 7px;
 }
 
+
+/*exemple de list*/
 .link ul{
+  height: auto;
   list-style-type: none;
-
 }
+.link ul li{
+  display : inline;
+}
+/***************/
 
 .link img{
-  width: 5%;
-  height: 15px;
+ width: 7%;
+ margin-left: 14%;
+ height: 80%;
 }
-
-.link div{
-  margin-right: 20%;
-  display: inline;
-}
+.link a { color: transparent; }
 /*************footer*************/
 .rootFooter{
-  margin-bottom: : 0;
+  margin-bottom: 0;
   width: 100%;
   height: 30px;
 }
