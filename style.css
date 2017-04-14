@@ -8,35 +8,47 @@
 
 .nameLinkPerso{
   width: 100%;
-  margin-top: 1.5%;
+  margin-top: 10px;
   position:absolute;
   }
 
-.namePanel{
-  margin-left: 2%;
-  width: 10%;
-  display: inline;
-  font-size: 25px;
+  .nameLinkPerso div{
+    height: 50px;
   }
 
+
+.namePanel{
+  width: 20%;
+  font-size: 25px;
+  float: left;
+  }
+
+.namePanel div{
+  height: auto;
+  margin-top: 10px;
+  font-size: larger;
+  margin-left: 10px;
+}
+
 .linkPerso{
-  width: 50%;
-  height: 50px;
+  width: 80%;
   color : blue;
   font-size: 15px;
-  display: inline;
-  margin-left: 50%;
+  float: right;
 }
 
 .linkPerso div{
-  display: inline;
   margin-right: 2%;
+  float: right;
+  margin-top: 16px;
+  height: auto;
 }
 
 /*****************body*********************/
 .principaleBody{
   margin: 0;
   width: 100%;
+  min-width: 872px;
   height: 100%;
 }
 
