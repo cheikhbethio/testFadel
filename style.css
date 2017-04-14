@@ -53,7 +53,6 @@
 .divCentrale{
   width: auto;
   height: 400px;
-  border: 2px solid black;
 }
 
 .centralImage{
@@ -70,7 +69,7 @@
 .infoPerso{
   width: 50%;
   height: 90%;
-  background-color: yellow;
+  background-color: white;
   font-size: 12px;
   color: blue;
   float: right;
@@ -88,13 +87,13 @@
 
 .panelInfoPerso div:first-child span{
   font-size: 25px;
-  font-weight: bold;
+  font-weight: normal;
   display: block;
 }
 
 .panelInfoPerso div:first-child span:nth-child(2){
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .panelInfoPerso div + div{
@@ -111,7 +110,7 @@ display: block;
 
 .socialLink{
   width: 100%;
-  background-color: green;
+  background-color: #0e0c67;
   height: 10%;
   float: left;*
 }
