@@ -43,6 +43,24 @@
   height: auto;
 }
 
+/*************footer*************/
+.rootFooter{
+  /*margin-bottom: : 0;*/
+  width: 100%;
+  height: 30px;
+  padding-bottom: 30px;
+}
+
+.footerContent{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 40%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+
 /*****************body*********************/
 .principaleBody{
   margin: 0;
@@ -143,13 +161,13 @@ display: block;
 
 .formation{
   height: 600px;
-  width: auto;
+  width: 100%;
   padding-top: 10px;
 }
 
 .firstLine{
   height: 50px;
-  width: auto;
+  width: 100%;
   text-align: center;
   font-size: larger;
   font-weight: bold;
@@ -173,12 +191,12 @@ display: block;
 
 .coteGauche div{
   height: 20px;
-  width: auto;
+  width: 100%;
   text-align: right;
 }
 
 .coteGauche aside{
-  width: auto;
+  width: 100%;
   height: 100px;
   margin-right: 10px;
   font-size: larger;
@@ -200,12 +218,12 @@ display: block;
 
 .coteDroit div{
   height: 20px;
-  width: auto;
-  text-align: left;
+  width: 100%;
+  /*text-align: left;*/
 }
 
 .coteDroit aside{
-  width: auto;
+  width: 100%;
   height: 100px;
   margin-left: 10px;
   font-size: larger;
@@ -217,20 +235,4 @@ display: block;
     font-size: normal;
     font-style: normal;
     font-weight: normal;
-}
-
-/*************footer*************/
-.rootFooter{
-  margin-bottom: : 0;
-  width: 100%;
-  height: 30px;
-}
-
-.footerContent{
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 40%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  font-weight: normal;
 }
