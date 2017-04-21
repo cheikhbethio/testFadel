@@ -4,6 +4,7 @@
   background-color:white ;
   margin: 0;
   color: blue;
+  position: fixed;
   }
 
 .nameLinkPerso{
@@ -143,21 +144,25 @@ display: block;
 .formation{
   height: 600px;
   width: auto;
+  padding-top: 10px;
 }
 
 .firstLine{
-  height: auto;
+  height: 50px;
   width: auto;
   text-align: center;
   font-size: larger;
   font-weight: bold;
   color: blue;
-  margin-top: 25px;
+  /*margin-top: 10px;
+  border-bottom: 1px solid blue;*/
+  border: 2px solid black;
 }
 
 .parcours{
   height: 500px;
   width: auto;
+  padding-top: 30px;
 }
 
 .coteGauche{
@@ -166,10 +171,52 @@ display: block;
   float: left;
 }
 
+.coteGauche div{
+  height: 20px;
+  width: auto;
+  text-align: right;
+}
+
+.coteGauche aside{
+  width: auto;
+  height: 100px;
+  margin-right: 10px;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.coteGauche aside div + div{
+    font-size: normal;
+    font-style: normal;
+    font-weight: normal;
+}
+
 .coteDroit{
   height: auto;
   width: 50%;
   float: right;
+}
+
+.coteDroit div{
+  height: 20px;
+  width: auto;
+  text-align: left;
+}
+
+.coteDroit aside{
+  width: auto;
+  height: 100px;
+  margin-left: 10px;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.coteDroit aside div + div{
+    font-size: normal;
+    font-style: normal;
+    font-weight: normal;
 }
 
 /*************footer*************/
