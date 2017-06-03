@@ -48,6 +48,7 @@
   height: 500px;
   width: 75%;
   background-color: red;
+  min-width: 800px;
 }
 
 .welcomeBanniere .imgPanel{
@@ -70,19 +71,20 @@
   border: 2px solid red;
   width: 90%;
   height: 70%;
+  color: blue;
 }
 
 .welcomeBanniere .coordonneesPanelInsideInfo div:first-child{
   height: 50px;
   width: 100%;
-  color: black;
+  /*color: black;*/
   font-style: Arial;
   font-size: 24px;
  }
 
 
  .welcomeBanniere .coordonneesPanelInsideInfo div:first-child span + span{
-  color: green;
+  /*color: green;*/
   font-size: 16px;
   font-weight: bold;
 }
@@ -90,17 +92,20 @@
 .welcomeBanniere .coordonneesPanelInsideInfo div{
   height: 50px;
   width: 100%;
-  color: red;
+  /*color: red;*/
+  font-weight: bold;
 }
 
 .welcomeBanniere .coordonneesPanelInsideInfo div span + span   {
-  color: blue;
+  /*color: blue;*/
+  font-weight: normal;
 }
 
 .linkBanniere{
   height: 60px;
   width: 100%;
   background-color: black;
+  min-width: 600px;
 }
 
 .linkBanniere .linkPanel{
@@ -108,4 +113,16 @@
   width: 65%;
   background-color: blue;
 
+}
+
+.linkBanniere .linkPanel .linkPanelIcons{
+  height: 100%;
+  width: 33%;
+  border: 2px solid yellow;
+
+}
+
+.linkBanniere .linkPanel .linkPanelIcons img{
+  height: 25px;
+  width: 25px;
 }
