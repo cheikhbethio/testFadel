@@ -89,7 +89,24 @@
   justify-content: flex-start;
 }
 
+/* ----------------------
+  ALignements des enfants :
+  - Horizontal : au début
+  - Vertical : à la fin
+------------------------ */
+.layout-align-start-end {
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: flex-end;
+  align-content: flex-end;
 
+  -webkit-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+}
 
 /* ----------------------
    Alignement des enfants :
