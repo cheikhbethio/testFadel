@@ -271,7 +271,7 @@
 }
 
 
-/* ----------------------
+ /*----------------------
    Alignement des enfants :
    - Horizontal : un espace entre chaque enfant
    - Vertical : au centre
@@ -284,7 +284,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-
+  
   -webkit-justify-content: flex-start;
   -ms-flex-pack: flex-start;
   justify-content: flex-start;

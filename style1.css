@@ -9,7 +9,7 @@
   background-color: green;
   height:100px;
   width: 100%;
-
+  /*position: fixed;*/
 }
 
 .nameHeader{
@@ -205,3 +205,90 @@
   padding-left: 20px;
   border: 1px solid yellow;
 }
+
+.formationTitle{
+  height: 75px;
+  width: 100%;
+  font-size: 20px;
+  min-width: 600px;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.formationBanniere{
+  height: 600px;
+  width: 100%;
+  min-width: 600px;
+  background-color: #a6a6de;
+}
+
+.formationBanniere .yearsFormation{
+  height: auto;
+  width: 50%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: larger;
+  min-width: 600px;
+  border: 2px solid red;
+}
+
+.formationBanniere .yearsFormation span+span{
+  font-style: normal;
+  font-weight: normal;
+}
+
+.formationBanniere .yearsFormation div{
+  height: 25%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.formationBanniere .descriptionFormation{
+  height: auto;
+  width: 50%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: larger;
+  min-width: 600px;
+  border: 2px solid black;
+}
+
+.formationBanniere .descriptionFormation span+span{
+  font-weight: normal;
+  font-style: normal;
+}
+
+.formationBanniere .descriptionFormation div{
+  height: 25%;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid yellow;
+}
+
+.skillsTittle{
+  height: 75px;
+  width: 100%;
+  font-size: 20px;
+  min-width: 600px;
+  color: white;
+  font-weight: bold;
+  background-color: #0a22a9;
+  border: 2px solid black;
+}
+
+.skillsBanniere{
+  height: 600px;
+  width: 100%;
+  min-width: 600px;
+  background-color: #3547af;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  padding-left: 25px;
+}
+
+.skillsBanniere div{
+  height: 100px;
+  width: 200px;
+  border: 1px solid yellow;
