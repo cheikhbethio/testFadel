@@ -282,13 +282,13 @@
   width: 100%;
   min-width: 600px;
   background-color: #3547af;
-  display: flex;
+  /*display: flex;
   justify-content: space-around;
-  flex-flow: column wrap;
-  padding-left: 25px;
+  flex-flow: column wrap;*/
 }
 
 .skillsBanniere div{
-  height: 100px;
-  width: 200px;
+  height: 75px;
+  width: 300px;
   border: 1px solid yellow;
+}
